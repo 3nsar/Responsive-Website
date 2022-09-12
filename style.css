@@ -54,7 +54,7 @@ nav a:hover{
 }
 
 /*------- main ---------*/
-img{
+.main-container img{
     width: 40rem;
     max-width: 100%;
 }
@@ -123,6 +123,24 @@ img{
     justify-content: flex-end;
 }
 
+.card{
+    background-color: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+}
+
+.columns-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
 
 
 
