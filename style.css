@@ -36,6 +36,7 @@ nav ul{
     display: flex;
     align-items: center;
     list-style: none;
+    justify-content: center;
 }
 
 nav li{
@@ -53,41 +54,74 @@ nav a:hover{
 }
 
 /*------- main ---------*/
+img{
+    width: 40rem;
+    max-width: 100%;
+}
 .main-container{
-    width: 95%;
-    max-width: 1100px;
-    margin: 0 auto;
     border: 1px solid red;
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 95%;
+    
 }
 
-.main-content{
-    margin-top: 2rem;
+.columns{
+    border: 1px solid blue;
+    display: flex;
+}
+.col-1{
+    width: 85%;
+    margin-left: 1rem;
+    margin-top: 4rem;
+    
+}
+.col-1 h1{
+    font-size: 3.5rem;
+    color: rgb(240, 60, 96);
 }
 
-.main-content h1{
-    font-size: 3rem;
+.col-1 h2{
+    font-size: 2.5rem;
     color: rgb(29, 253, 253);
-}
-
-.main-content h2{
     margin-top: 1rem;
+    text-align: center;
 }
 
-.main-pic{
+.col-1 h3{
+    font-size: 1.5;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.col-1 button{
+    padding: 1rem;
+    
+    font-size: 1rem;
+    color: rgb(255, 254, 254);
+    background-color: rgb(240, 60, 96);
+    border: 0;
+    cursor: pointer;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.col-1 button:hover{
+    transition: all 0.4s ease;
+    background-color: rgb(91, 91, 91);
+}
+
+
+.col-2{
+    margin-top: 1rem;
+    margin-right: 3rem;
+    width: 60%;
     display: flex;
     justify-content: flex-end;
 }
-
-.main-pic img{
-    max-width: 100%;
-    width: 30rem;
-}
-
-
-
-
-
-
 
 
 
