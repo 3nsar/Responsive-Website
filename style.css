@@ -7,7 +7,7 @@
 
 body{
     font-family: fantasy;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(31, 31, 31);
     color: rgb(255, 254, 254);
     
 }
@@ -20,7 +20,7 @@ body{
     font-size: 2.5rem;
 }
 header{
-    background-color: rgb(3, 3, 3);
+    background-color: rgb(28, 28, 28);
     padding: 1.5rem;
 }
 .container{
@@ -148,16 +148,23 @@ nav a:hover{
     justify-content: center;
     align-items: center;
 }
+.card-1{
+    background-image: url(/images/pic3.jpg);
+}
+
+.card-2{
+    background-image: url(/images/roboter.jpg);
+}
 
 .card{
-    color: white;
-    background-image: url(/images/pic3.jpg);
+    color: #000;
     background-size: cover;
     padding: 15rem 0 0;
     max-width: 35ch;
-    border-radius: 10px;
-    margin: 0 2rem;
+    border-radius: 15px;
+    margin: 0 3rem;
     margin-bottom: 1rem;
+    box-shadow: 5px 5px 20px;
 }
 
 .card:hover{
@@ -174,11 +181,13 @@ nav a:hover{
 }
 
 .card-title{
+    color: white;
     margin-bottom: 2rem;
     text-decoration: underline;
     text-decoration-color:rgb(240, 60, 96);
 }
 .card-body{
+    color: white;
     margin-bottom: 1.5rem;
 }
 
@@ -204,6 +213,37 @@ nav a:hover{
     background-color: rgb(91, 91, 91);
 }
 
+/*---------- Footer ---- */
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    margin-top: auto;
+    background-color: rgb(24, 24, 24);
+    align-items: center;
+}
+
+.footer-col{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-col h2{
+    font-size: 2rem;
+    font-family:"Passion One";
+    color: rgb(240, 60, 96);
+}
+
+.footer-col p{
+    font-size: 0.8rem;
+    color: rgb(134, 133, 133);
+}
+
+.footer-col img:hover{
+    cursor: pointer;
+}
 
 
 
