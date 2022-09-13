@@ -22,6 +22,7 @@ body{
 header{
     background-color: rgb(28, 28, 28);
     padding: 1.5rem;
+    
 }
 .container{
     display: flex;
@@ -30,6 +31,7 @@ header{
     max-width: 1100px;
     width: 95%;
     align-items: center;
+    
 }
 
 nav ul{
@@ -59,7 +61,6 @@ nav a:hover{
     max-width: 100%;
 }
 .main-container{
-    border: 1px solid red;
     margin: 0 auto;
     max-width: 1100px;
     width: 95%;
@@ -67,7 +68,6 @@ nav a:hover{
 }
 
 .columns{
-    border: 1px solid blue;
     display: flex;
 }
 .col-1{
@@ -100,9 +100,11 @@ nav a:hover{
     display: flex;
 }
 
+.btn-main a{
+    text-decoration: none;
+}
 .col-1 button{
     padding: 1rem;
-    
     font-size: 1rem;
     color: rgb(255, 254, 254);
     background-color: rgb(240, 60, 96);
@@ -165,6 +167,8 @@ nav a:hover{
     margin: 0 3rem;
     margin-bottom: 1rem;
     box-shadow: 5px 5px 20px;
+    
+    
 }
 
 .card:hover{
@@ -190,7 +194,6 @@ nav a:hover{
     color: white;
     margin-bottom: 1.5rem;
 }
-
 
 .btn-card{
     align-items: center;
@@ -244,6 +247,64 @@ footer{
 .footer-col img:hover{
     cursor: pointer;
 }
+
+/*-------- Sign Up Forms--------*/
+
+.forms-container{
+    display: flex;
+    
+}
+.forms-content{
+    margin: 0 auto;
+    border: 1px solid rgb(240, 60, 96);
+    border-radius: 5%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.forms-content h1{
+    text-align: center;
+    margin-top: 0.4rem;
+}
+
+form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    
+}
+
+form input{
+    margin-top: 0.5rem;
+    background: #2e2e2e;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 8%;
+    padding: 0.5rem 0.8rem;
+}
+
+form button{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: rgb(255, 254, 254);
+    background-color: rgb(240, 60, 96);
+    border: 0;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: 0.5rem;
+}
+
+form button:hover{
+    transition: all 0.4s ease;
+    background-color: rgb(91, 91, 91);
+}
+
+
+
+
 
 
 
