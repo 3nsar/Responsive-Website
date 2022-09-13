@@ -14,12 +14,12 @@ body{
 
 /*------- header ------*/
 
-.container h1{
+.nav-container h1{
     font-family:"Passion One";
     color: rgb(240, 60, 96);
     font-size: 2.5rem;
 }
-.container a{
+.nav-container a{
     text-decoration: none;
 }
 header{
@@ -27,7 +27,7 @@ header{
     padding: 1.5rem;
     
 }
-.container{
+.nav-container{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -56,6 +56,21 @@ nav a{
 nav a:hover{
     color: rgb(240, 60, 96);
     transition: all 0.4s ease;
+}
+
+@media (max-width:650px){
+    .nav-container{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav li{
+        margin-top: 0.5rem;
+    }
 }
 
 /*------- main ---------*/
@@ -360,4 +375,3 @@ form button:hover{
     transition: all 0.4s ease;
     background-color: rgb(91, 91, 91);
 }
-
