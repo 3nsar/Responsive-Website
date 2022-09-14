@@ -1,4 +1,4 @@
-For this website I was inspired by a youtube-video about front-end designs.
+I was inspired by a youtube-video about front-end designs.
 In this video the youtuber build a website, but without functions.
 My goal was, to make a similair website, but without watching the video.
 I used for this website just pure Html and Css. 
